@@ -16,5 +16,6 @@ primes_up_to_100 = [
 # fmt: on
 
 
-def fizz_buzz_whiz():
-    print("fizzzzz")
+def fizz_buzz_whiz(number: int) -> str:
+    if number in primes_up_to_100:
+        return "Whiz"
