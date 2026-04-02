@@ -1,5 +1,9 @@
 NUMBERS_UP_TO = 100
 
+numbers_div_by_three = set(range(3, NUMBERS_UP_TO + 1, 3))
+numbers_div_by_five = set(range(5, NUMBERS_UP_TO + 1, 5))
+numbers_div_by_three_and_five = numbers_div_by_three & numbers_div_by_five
+
 # fmt: off
 primes_up_to_100 = [
     2, 3, 5, 7,
@@ -19,3 +23,5 @@ primes_up_to_100 = [
 def fizz_buzz_whiz(number: int) -> str:
     if number in primes_up_to_100:
         return "Whiz"
+    elif number in numbers_div_by_three_and_five:
+        return "FizzBuzz"

@@ -1,8 +1,9 @@
-from src.kata.code import NUMBERS_UP_TO, fizz_buzz_whiz, primes_up_to_100
-
-numbers_div_by_three = set(range(3, NUMBERS_UP_TO + 1, 3))
-numbers_div_by_five = set(range(5, NUMBERS_UP_TO + 1, 5))
-numbers_div_by_three_and_five = numbers_div_by_three & numbers_div_by_five
+from src.kata.code import (
+    NUMBERS_UP_TO,
+    fizz_buzz_whiz,
+    numbers_div_by_three_and_five,
+    primes_up_to_100,
+)
 
 print(NUMBERS_UP_TO)
 
