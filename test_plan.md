@@ -1,4 +1,4 @@
-- Primes -> "Whiz"
+- **Primes -> "Whiz"**
 - div by 3 & 5 -> "FizzBuzz"
 - div by 5 -> "Buzz"
 - div by 3 -> "Fizz"
