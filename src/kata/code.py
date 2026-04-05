@@ -27,3 +27,5 @@ def fizz_buzz_whiz(number: int) -> str:
         return "FizzBuzz"
     elif number in numbers_div_by_five:
         return "Buzz"
+    elif number in numbers_div_by_three:
+        return "Fizz"
