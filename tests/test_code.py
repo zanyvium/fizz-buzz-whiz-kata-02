@@ -1,7 +1,7 @@
 from src.kata.code import (
     NUMBERS_UP_TO,
-    all_numbers,
     fizz_buzz_whiz,
+    numbers_div_by_five,
     numbers_div_by_three_and_five,
     primes_up_to_100,
 )
@@ -20,6 +20,6 @@ def test_div_by_three_and_five():
 
 
 def test_div_by_five():
-    numbers = all_numbers - primes_up_to_100 - numbers_div_by_three_and_five
+    numbers = numbers_div_by_five - numbers_div_by_three_and_five - primes_up_to_100
     for number in numbers:
         assert fizz_buzz_whiz(number) == "Buzz"

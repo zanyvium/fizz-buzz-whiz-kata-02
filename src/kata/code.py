@@ -1,5 +1,5 @@
 NUMBERS_UP_TO = 100
-all_numbers = set(range(1, NUMBERS_UP_TO + 1, 1))
+
 numbers_div_by_three = set(range(3, NUMBERS_UP_TO + 1, 3))
 numbers_div_by_five = set(range(5, NUMBERS_UP_TO + 1, 5))
 numbers_div_by_three_and_five = numbers_div_by_three & numbers_div_by_five
@@ -27,5 +27,3 @@ def fizz_buzz_whiz(number: int) -> str:
         return "FizzBuzz"
     elif number in numbers_div_by_five:
         return "Buzz"
-    elif number in numbers_div_by_three:
-        return "Fizz"
